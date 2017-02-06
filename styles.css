@@ -1,0 +1,132 @@
+.wrapper {
+  max-width:880px;
+  margin: 0 auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1d1f21;
+  font-family: 'Cabin', 'Open Sans', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  color: #3f7898;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #475963;
+  text-decoration: none;
+}
+a:active {
+  color: #475963;
+  text-decoration: none;
+}
+
+.header {
+   font-size: 16pt;
+   color: #4dbdae;
+ }
+
+ .header h4 {
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+.main {
+  text-align: left;
+  text-decoration: none;
+  padding-left: 80px;
+}
+
+i {
+  padding: 20px;
+  color: #475963;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16pt;
+}
+h3 {
+ font-size: 14pt;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ color: #d58747
+}
+td {
+  -webkit-column-width: 190px;
+  -moz-column-count: 190px;
+  column-count: 190px;
+  overflow: hidden;
+  padding-right: 8px;
+  font-size: 12.5pt;
+}
+
+h4 {
+  font-size: 12pt;
+  padding-left: 10px;
+  color: #643973
+}
+
+h5 {
+  font-size: 10.5pt;
+  padding-left: 10px;
+}
+
+#dates {
+  color: #609b55;
+}
+#intro {
+  font-size: 90pt;
+}
+
+
+#education h2 {
+  padding-left: 10px;
+
+}
+#education h3 {
+  padding-left: 20px;
+}
+#education h4 {
+  padding-left: 30px;
+}
+#education h5 {
+  padding-left: 50px;
+
+}
+
+#work h2 {
+  padding-left: 10px;
+  color: #4dbdae;
+  font-size: 16pt;
+}
+#work h3 {
+  padding-left: 20px;
+}
+#work h4 {
+  padding-left: 30px;
+}
+#work h5 {
+  padding-left: 30px;
+}
+
+footer {
+  /*height: 60px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;*/
+
+}
+
+body {
+  margin-bottom: 120px;
+}

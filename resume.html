@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Devon Hughes</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles.css" type="text/css"/>
+		<meta charset="UTF-8">
+	</head>
+
+
+
+	<body class = "wrapper">
+
+		<script type="text/javascript">
+			function showHide(a){
+				var x=document.getElementById(a);
+				if(!x)return false;
+				if(x.style.display=="none"){
+					x.style.display="block"
+				} else {
+					x.style.display="none"
+				}
+				return true;
+			}
+		</script>
+
+		<div class="header">
+			<h1><a href="main.html">Devon Hughes</a></h1>
+			<h4>
+			 <a href="mailto: devonhughes84@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+			 <a href="https://twitter.com/devhughes84" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+			 <a href="https://github.com/devonhughes" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+			 <a href="https://www.linkedin.com/in/devonhughes84" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+		 </h4>
+		</div>
+
+		<div class="main">
+		<!-- SUMMARY -->
+			<h2><a style="cursor: pointer;" onclick="return showHide('summary')">Summary</a></h2>
+			<div id="summary" style="display: none;">
+				<h3>Extremely motivated, results-driven IT candidate with a sales & management background</h3>
+					<h4>
+						My interests are rooted in information security and project management, both of which require a deep knowledge of the IT field.
+						I have been increasing my technical skills to add to my unique combination of leadership, innovation, adaptation, and
+						communication skills. I am currently seeking an entry-level position in IT to deliver excellence as I progress toward
+						becoming an expert in these fields.
+					</h4>
+			</div>
+
+			<h2><a style="cursor: pointer;" onclick="return showHide('education')">Education</a></h2>
+			<div id="education" style="display: none;">
+				<h3>Bachelor of Arts: Computer Science & Cyber Security</h3>
+					<h4>University of North Carolina – Charlotte;<span id="dates"> (Dec 2017)</span><br>
+						 Overall GPA: <span id="dates"> 3.42</span> / Major GPA: <span id="dates">3.65</span>
+					</h4>
+
+					<!-- dropdown link each course to basic UNCC description, incl. relevant projects etc -->
+				 <h4><a style="cursor: pointer;" onclick="return showHide('coursework')"><span style="color: #4dbdae;">Coursework (UNCC)</span></a></h4>
+				 <div id="coursework" style="display: none;">
+
+
+					<h4><a style="cursor: pointer;" onclick="return showHide('4166')">Network Based Application Development (ITIS 4166)</a></h4>
+					<div id="4166" style="display: none;">
+						<h5>This course examines the issues related to network based application development. Topics include introduction to
+							computer networks, web technologies and standards, network based programming methodologies, languages, tools and standards.</h5>
+					</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('2300')">Web-Based Application Development (ITIS 2300)</a></h4>
+					<div id="2300" style="display: none;">
+						<h5> Basic concepts for developing interactive web based applications; HTML, client side scripting, server side scripting,
+							user interface design considerations, information security and privacy considerations, system integration considerations.
+							Students will be required to develop working prototypes of web-based applications</h5>
+						</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('4250')">Computer Forensics (ITIS 4250)</a></h4>
+					<div id="4250" style="display: none;">
+						<h5>The identification, extraction, documentation, interpretation, and preservation of computer media for evidentiary
+							purposes and/or root cause analysis. Topics include techniques for discovering digital evidence; responding to
+							electronic incidents; tracking communications through networks; understanding electronic media, crypto-literacy,
+							data hiding, hostile code and Windows™ and UNIX™ system forensics; and the role of forensics in the digital environment.
+						<a href="itis4250-lab.pdf" target="_blank"><span id="dates">Download a writing sample</span></a></h5>
+						</div>
+
+					<h4><a style="cursor: pointer;" onclick="return showHide('2110')">IT Infrastructure I: Design & Practices (ITIS 2110)</a></h4>
+					<div id="2110" style="display: none;">
+						<h5>This course covers basics concepts for IT infrastructure systems administration such as networking administration
+							(e.g., DNS configuration, router configuration, firewall setup, and web server configurations), operating system
+							administration (e.g., account and privilege management, and service management). The course will have heavy hands-on
+							laboratory emphasis.</h5>
+						 </div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('3110')">IT Infrastructure II: Design & Practices (ITIS 3110)</a></h4>
+					<div id="3110" style="display: none;">
+						<h5> This course covers concepts for the design and implementation of robust IT infrastructures. Topics covered include
+							system hardening, secured access, penetration testing, file storage services, as well as advanced topics in design and
+							configuration of network based services. The course will have heavy hands-on laboratory emphasis. </h5>
+						</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('2214')">Data Structures (ITCS 2214)</a></h4>
+					<div id="2214" style="display: none;">
+						<h5>A study of the theory and implementation of abstract data types (ADTs) including stacks, queues, and both general
+							purpose and specialized trees and graphs. Programming emphasis is on the use of an object-oriented language to implement
+							algorithms related to the various data structures studied including creation, searching, and traversal of ADTs. </h5>
+						</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('2215')">Design & Analysis Algorithms (ITCS 2215)</a></h4>
+					<div id="2215" style="display: none;">
+						<h5>Introduction to the design and analysis of algorithms. Design techniques: divide-and-conquer, greedy approach,
+							dynamic programming. Algorithm analysis: asymptotic notation, recurrence relation, time space complexity and tradeoffs.
+							Study of sorting, searching, hashing, and graph algorithms. </h5>
+						</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('2175')">Logic & Algorithms: Discrete Mathematics (ITCS 2175)</a></h4>
+					<div id="2175" style="display: none;">
+						<h5>Introduction to propositional calculus, predicate calculus, algorithms, logic functions, finite-state machines; logic design.</h5>
+					</div>
+					<h4><a style="cursor: pointer;" onclick="return showHide('1242')">Calculus II (MATH 1242)</a></h4>
+					<div id="1242" style="display: none;">
+						<h5>Methods for evaluating definite integrals, applications of integration, improper integrals, infinite series,
+							Taylor series, power series, and introduction to differential equations. </h5>
+						</div>
+				 </div>
+
+				<h3>Bachelor of Arts: American Studies & History</h3>
+					<h4>University at Buffalo, The State University of New York;<span id="dates"> (May 2006)</span> <br>
+						  Overall GPA: <span id="dates"> 3.88 </span>
+					</h4>
+			</div>
+
+			<h2><a style="cursor: pointer;" onclick="return showHide('certifications')">Certifications</a></h2>
+			<div id="certifications" style="display: none;">
+				<h3><a href="https://cybersecurity.isaca.org/" target="_blank">ISACA CSX-Fundamentals:</span><span id="dates"> Anticipated Mar 2017</a></h3>
+				  <h4>For demonstrated foundational knowledge and as a prerequisite to CSX-P and CISM </h4>
+				<h3><a href="https://www.splunk.com/view/education/SP-CAAAAH9" target="_blank">Splunk Power User:<span id="dates"> Feb 2017</span></a></h3>
+				  <h4>For demonstrated proficiency with Splunk software for searching, monitoring, and analyzing big data </h4>
+				<h3><a href="https://leadership.uncc.edu/pilot-program" target="_blank">PILOT Master Leader Certificate:<span id="dates"> Nov 2016</span></a></h3>
+				<h4>Programs in Leadership and Organizational Training (PILOT), the largest leadership program at UNC Charlotte,
+				  awards the Master Leader Certificate as their highest credential consisting of 16 contact hours in leadership,
+				  organization, ethics, diversity, skill building and self development.</h4>
+				<h3><a href="https://www.syntricate.com/computer-forensics-certification.html" target="_blank">ACE AccessData Certified Examiner:<span id="dates"> Jan 2016</span></a></h3>
+				  <h4>For demonstrated proficiency with Forensic Toolkit (FTK) technology.
+				    <a href="ACE_Certificate.pdf" target="_blank"><span id="dates">Certificate</span></a>
+				  </h4>
+
+
+			</div>
+
+			<h2><a style="cursor: pointer;" onclick="return showHide('experience')">Experience</a></h2>
+			<div id="experience" style="display: none;">
+
+
+					<h3>Cybersecurity Operations Intern, TIAA;<br><span id="dates"> Charlotte, NC (Summer 2016)</span></h3>
+						<h4>Performed dynamic scanning of internal & external facing web applications focusing on OWASP Top 10 vulnerabilities</h4>
+							<h5>
+								▪ Conducted application discovery meetings with development teams <br>
+								▪ Doubled the daily application scan rate, bringing 60 applications into Complete or In Progress stage <br>
+								▪ Used tools daily like Burp Suite, IBM AppScan, RSA Archer, FireBug
+							</h5>
+
+							<h3>Network Based Application Development Course;<br> <span id="dates">UNC-Charlotte (2015)</span></h3>
+								<h4>Created a Java based web app to restrict and log children's access to networked devices
+								<a href="Grounded-DevonHughes.pdf" target="_blank"><span id="dates">Download</span></a><br>
+							</h4>
+
+							<h3>Course Project Leader: IT Infrastructure II: Design & Practices; <br><span id="dates">UNC-Charlotte (2015)</span></h3>
+								<h4>Demonstrated the implementation of internal networked services for a commercial enterprise
+									by setting up and integrating cross-platform services
+									<a href="3110-DevonHughes.pdf" target="_blank"><span id="dates">Download</span></a><br>
+								</h4>
+									<h5>
+										▪ Windows Server VM providing NTP, DNS, NFS, and Active Directory services<br>
+										▪ Debian server VM providing DNS and OpenSSH<br>
+										▪ Windows 7 workstation to access shared files via NFS<br>
+									</h5>
+							<h3>Course Project Leader: IT Infrastructure I: Design & Practices; <br><span id="dates">UNC-Charlotte (2014)</span></h3>
+								<h4>Demonstrated the importance of encrypted data and HTTPS/TLS protocols</h4>
+									<h5>
+										▪ Apache web server on a Raspberry Pi and Wireshark packet analyzing<br>
+									  ▪ Contributed extensive project documentation with focus on being reproducible by novices
+								</h5>
+			</div>
+
+			<h2><a style="cursor: pointer;" onclick="return showHide('work')">Professional Development</a></h2>
+			<div id="work" style="display: none;">
+
+			<h2><a style="cursor: pointer;" onclick="return showHide('activities')">Organizations</a></h2>
+			<div id="activities" style="display: none;">
+				<h3><a href="http://www.pmibuffalo.org/" target="_blank">PMI Buffalo Chapter;</a><span id="dates"> Member (2017)</span></h3>
+				<h3><a href="http://www.isaca.org/chapters11/Western-New-York/Pages/Default.aspx" target="_blank">ISACA Western New York Chapter;</a>
+				  <span id="dates"> Member (2017)</span></h3>
+				<h3><a href="https://orgsync.com/145109/chapter" target="_blank">ISACA Student Organization at UNC- Charlotte;</a><br>
+				  <span id="dates"> President/Founding Member (2016)</span></h3>
+				    <h5>▪ Founding member of new student organization focusing on certification prep for students <br>
+				        ▪ Began creation of set of certification study topic presentations <a href="studycsx1.pdf" target="_blank"><span id="dates">Download</span></a></h5>
+				<h3><a href="http://www.nationalcyberleague.org/" target="_blank">National Cyber League;</a><br>
+					<span id="dates"> Competitor (2014 - 2016) </span></h3>
+				  <h5>▪ Ranked in top quarter of players overall for 2014 Fall Season</a> <br>
+				      ▪ Competed in top bracket (Gold) in 2016
+				  </h5>
+				<h3><a href="https://www.49sd.com/" target="_blank">UNC–Charlotte 49th Security Division;</a><br>
+				  <span id="dates"> Student Member (2014 - 2016)</span></h3>
+				  <h5>
+				    ▪ Created <a href="crypto.html" target="_blank"><span id="dates">challenges</span></a> for and assisted with CTF set up for 2015
+				    <a href="http://cybersecurity.uncc.edu/" target="_blank">UNCC Cyber Security Symposium</a><br>
+				    ▪ Alternate for 2015 <a href="http://www.nationalccdc.org/" target="_blank">National Collegiate Cyber Defense Competition, Southeast Regional</a><br>
+				    ▪ Establishing connections within community for potential speakers<br>
+				  </h5>
+				<h3><a href="https://orgsync.com/68552/chapter" target="_blank">ACM–W (Women in Computing);</a>
+				  <span id="dates"> Student Member (2014 - 2016)</span></h3>
+			</div>
+
+			<!-- Link each conference, include talks attended  -->
+			<h2><a style="cursor: pointer;" onclick="return showHide('conferences')">Conferences</a></h2>
+			<div id="conferences" style="display: none;">
+				<h3><a href="http://www.carolinacon.org/" target="_blank">Carolina Con;</a><span id="dates"> (2016)</span></h3>
+				<h3><a href="http://cybersecurity.uncc.edu/" target="_blank">UNCC Cyber Security Symposium;</a><span id="dates"> (2014 - 2016)</span></h3>
+				<h3>SparkCon;<span id="dates"> (2015)</span></h3>
+				<h3><a href="http://www.southeastlinuxfest.org/" target="_blank">SouthEast LinuxFest;</a><span id="dates"> (2013 - 2016)</span></h3>
+				<h3><a href="http://bsidesclt.org/" target="_blank">BSides Charlotte;</a><span id="dates"> (2014 - 2015)</span></h3>
+			</div>
+		<!--
+			<h2><a style="cursor: pointer;" onclick="return showHide('projects')">Projects</a></h2>
+			<div id="projects" style="display: none;">
+
+			 </div>
+-->
+</div>
+
+<h2><a style="cursor: pointer;" onclick="return showHide('volunteer')">Previous Work & Volunteering</a></h2>
+<div id="volunteer" style="display: none;">
+	<h3>Field Representative, United States Bureau of Census; <br><span id="dates">Charlotte, NC (2012 - 2014)</span></h3>
+			<h5>
+				▪ Conducted interviews in English & Spanish while promoting Census Bureau mission and integrity<br>
+				▪ Maintained highest level of data security in accordance with strict federal regulations<br>
+				▪ Possessed security clearance, eligible to obtain again<br>
+				▪ Team 74 was #1 in survey response rate and Atlanta Regional Office was best in the nation (2014)
+			</h5>
+	<h3>Field Supervisor & Gleaning Volunteer, Society of St. Andrew;<br> <span id="dates">Charlotte, NC (2009 - 2012)</span></h3>
+			<h5>
+				Supervised groups of up to 20 volunteers in picking crops and distributing to local charities for
+				feeding the hungry
+			</h5>
+	<h3>Projects Volunteer, NCFOM; <br><span id="dates">Charlotte, NC (2011)</span></h3>
+			<h5>
+				Coordinated & created events via Facebook & email, created greeting card and logo, media contact list,
+				media contact list, carpooling for Charlotte region, outreach and awareness raising of organizational mission,
+				events, and member registration all under strict deadlines with very little notice
+			</h5>
+
+	<h3>Crew Leader, United States Bureau of Census;<br> <span id="dates">Charlotte, NC (2010)</span></h3>
+			<h5>
+				▪ Led and supervised 25 enumerators and 2 crew leader assistants during fast-paced field operations<br>
+				▪ Conducted training sessions for 75 trainees, including correct procedures, forms and reports<br>
+				▪ Assigned field regions, conducted field observations & provided on-the-spot assistance and supervision<br>
+				▪ Advised superior of progress & performance and recommended dismissal of under-performing employees<br>
+			</h5>
+
+	<h3>Quality Assurance Executive, Universal Circulation Marketing; <span id="dates">Charlotte, NC (2010)</span></h3>
+
+	<h3>Store Manager, Lunar Mini Golf; <span id="dates">Concord, NC (2009)</span></h3>
+
+	<h3>Refugee Educator & Case Manager, Americorps at International Institute;<br> <span id="dates">Buffalo, NY (2006 - 2007)</h3>
+			<h5>
+				▪ Developed & carried out resettlement plan for 100 newly arrived refugee clients<br>
+				▪ Directly assisted clients with obtaining housing, food, clothing, public assistance, health care, etc<br>
+				▪ Conducted numerous home visits & gained trust during difficult period<br>
+				▪ Maintained extensive case files, notes & reports in accordance with government regulations<br>
+			</h5>
+</div>
+
+
+
+			<!-- Update interests later  -->
+			<!-- <h2><a style="cursor: pointer;" onclick="return showHide('interests')">Interests</a></h2>
+			<div id="interests" style="display: none;">
+
+	  	</div> -->
+</div>
+		<!-- repeat relevant contact info or maybe make a contact link and/or separate bio page or grad app bio   -->
+		<div class="footer">
+			<h5>
+				Prefer a traditional resume? <a href="Resume-DevonHughes.pdf" target="_blank">Download</a><br>
+				<br>Contact:
+				<a href="mailto: devonhughes84@gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="https://twitter.com/devhughes84" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://github.com/devonhughes" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/devonhughes84" target="_blank"><i class="fa fa-linkedin"></i></a>
+			</h5>
+		</div>
+	</body>
