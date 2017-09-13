@@ -4,11 +4,12 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   background-color: #1d1f21;
   font-family: 'Cabin', 'Open Sans', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
-  color: #3f7898;
+  
+  color: #609b55;
 }
 
 
@@ -49,17 +50,20 @@ i {
 
 h1 {
   margin-bottom: 0;
+  color: #d58747;
+  text-align: center;
 }
 h2 {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 16pt;
+  color: #d58747;
 }
 h3 {
  font-size: 14pt;
  margin-top: 10px;
  margin-bottom: 10px;
- color: #d58747
+ color: 	
 }
 td {
   -webkit-column-width: 190px;
@@ -71,59 +75,25 @@ td {
 }
 
 h4 {
-  font-size: 12pt;
+  
+  text-align: center;
   padding-left: 10px;
-  color: #643973
+  color: #9f6eaf;
 }
 
 h5 {
-  font-size: 10.5pt;
+  font-size: 11pt;
   padding-left: 10px;
+    
 }
 
-#dates {
+#green {
   color: #609b55;
 }
-#intro {
-  font-size: 90pt;
-}
 
-
-#education h2 {
-  padding-left: 10px;
-
+.footer {
+  text-align: center;
 }
-#education h3 {
-  padding-left: 20px;
-}
-#education h4 {
-  padding-left: 30px;
-}
-#education h5 {
-  padding-left: 50px;
-
-}
-
-#work h2 {
-  padding-left: 10px;
-  color: #4dbdae;
-  font-size: 16pt;
-}
-#work h3 {
-  padding-left: 20px;
-}
-#work h4 {
-  padding-left: 30px;
-}
-#work h5 {
-  padding-left: 30px;
-}
-
-footer {
-  /*height: 60px;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 0;*/
 
 }
 
