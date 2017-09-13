@@ -90,6 +90,12 @@ h5 {
 #green {
   color: #609b55;
 }
+.rsvp {
+  text-align: left;
+color: #9f6eaf;
+font-size: 12.5pt;
+font-weight: bold;
+}
 
 .footer {
   text-align: center;
